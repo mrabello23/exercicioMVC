@@ -1,0 +1,194 @@
+/*html{
+	height:1280px;
+}
+.copyright{
+	text-align: center;
+	background-color: #fff;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	font-size: 11px;
+}*/
+body {
+	background-color: #448bc8;
+	margin-top: 80px;
+	/*min-height: 980px;*/
+}
+hr{
+	border-color: #ddd;
+}
+.erro {
+	color: red;
+	font-weight: bold;
+	margin:5px;
+}
+.help {
+	cursor:help;
+}
+.container{
+	background-color: #fff;
+	width:80%;
+	min-height:70%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position:relative;
+}
+.index{
+	background-color: #448bc8;
+}
+.navbar,.navbar-default,.navbar-fixed-top{
+	background-color: #fff !important;
+}
+.navbar-brand{
+	padding-top: 0px;
+}
+.img_rodape_portal{
+	/*width: 200px;*/
+	height: 55px;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.img_rodape_cliente{
+	width: 100px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	padding-top: 10px;
+}
+.huge{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.dashboard{
+	margin-top: 20px;
+}
+.txt-dashboard{
+	height: 40px;
+	font-size: medium;
+}
+#modal_certificado > .modal-dialog > .modal-content > form > .modal-body{
+	min-height: 100px;
+}
+#blockPanel {
+    display: none;
+    padding: 0.5em;
+}
+.navbar{
+	padding: 5px;
+}
+.vermelho{
+	color:#d9534f; 
+	font-weight:bold;
+	font-size: 15px;
+}
+.verde{
+	color:#5cb85c; 
+	font-weight:bold;
+	font-size: 15px;
+}
+.amarelo{
+	color:#f0ad4e; 
+	font-weight:bold;
+	font-size: 15px;
+}
+.branco{
+	color:#fff; 
+	font-weight:bold;
+	font-size: 15px;
+}
+.tamanho20{
+	font-size: 20px;
+}
+.login {
+	margin-top: 5% !important;
+	padding: 5px;
+	width: auto;
+	min-width: 320px;
+	max-width: 400px;
+	min-height: 350px;
+	height: auto;
+	background-color: #f3f3f3;
+	margin:0 auto;
+	border-radius: 10px;
+	border: 1px solid #c5c5c5;
+    text-align: center;
+}
+.login-inner {
+	margin:0 auto;
+	max-width: 380px;
+	width: auto;
+}
+.login > h3 {
+	margin-left: 5px;
+	line-height: 35px;
+}
+.email {
+	margin-bottom: 5px;
+}
+.password {
+	margin-bottom: 5px;
+}
+.submit {
+	margin-top: 5px;
+}
+.forgot {
+	min-width:50px;
+	width: 49%;
+	margin-top: 20px;
+}
+#assinar_documento, 
+#download_lote, 
+#exportar_grid{
+	margin-left: 15px;
+}
+.img-dashboard{
+	font-size: 30px;
+}
+.w300{
+	width: 300px;
+}
+.margin-right-50{
+	margin-right: 50px;
+}
+.margin-bottom-15{
+	margin-bottom: 15px;
+}
+.vtop{
+	vertical-align:top;
+}
+@media (min-width: @screen-sm-min) and (min-width: @screen-md-min) {
+	.forgot {
+		font-size: 9px;
+		font-weight: 700;
+		padding: 8px;
+	}
+	.panel-info > .panel-heading{
+		padding:10px;
+	}
+	.txt-dashboard{
+		font-size: inherit;
+	}
+}
+@media (min-width: @screen-md-min) and (min-width: @screen-lg-min) {
+	.txt-dashboard{
+		font-size: inherit;
+	}
+	.img-dashboard{
+		font-size: 16px;
+	}
+	.huge{
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.td_status{
+		width: 150px !important;
+	}
+	.td_empresa{
+		width: 200px !important;
+	}
+	.panel-info > .panel-heading{
+		padding:10px;
+	}
+}
