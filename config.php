@@ -7,7 +7,7 @@ $rootPath = "";
 if (strtolower($_SERVER["HTTP_HOST"]) == 'localhost' || 
 	strtolower($_SERVER["SERVER_NAME"]) == 'localhost'
 ) {
-	$rootPath = "projetos" . DIRECTORY_SEPARATOR . "teste" . DIRECTORY_SEPARATOR;
+	$rootPath = "exercicioMVC" . DIRECTORY_SEPARATOR;
 	$rootPathUrl = str_replace(DIRECTORY_SEPARATOR, "/", $rootPath);
 }
 
